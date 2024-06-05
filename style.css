@@ -50,6 +50,14 @@
     text-align: center;
     color: aliceblue;
 }
+#ExperienceSection{
+    padding: 20px;
+    background:rgb(189, 125, 21);
+    height: 780px;
+}
+#ExperienceHeader{
+    right: 200px;
+}
 .center{
     position: absolute;
     width: 250px;
