@@ -17,6 +17,28 @@
     position: sticky;
     top: 0;
 }
+.ExperienceButton{
+    background-color: gray;
+    border: none;
+    font-size: 18px;
+}
+.Experience{
+    position: relative;
+    display: inline-block;
+}
+.ExperienceSections{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: brown;
+    z-index: 1;
+}
+.ExperienceSections a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
 #moreBody {
     font-size: 20px;
     margin: 100px;
@@ -54,16 +76,23 @@
     padding: 20px;
     background:rgb(189, 125, 21);
     height: 780px;
+    border-radius: 10px;
 }
-#ExperienceHeader{
-    right: 200px;
+#ExperienceTitle{
+    position: experienceHeader;
+    text-align: left;
 }
+#projectsHeader{
+    padding-top: 200px;
+    text-align:right;
+}
+
 .center{
     position: absolute;
     width: 250px;
     height: 250px;
     margin: auto;
-    top: 0;;
+    top: 0;
     right: 0;
     bottom: 0;
     left: 0;
