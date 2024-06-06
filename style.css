@@ -10,15 +10,13 @@
 #body{
     margin: 0%;
 }
-
 #mainNav{
-    background: gray;   
+    background: none;   
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
 }
 .ExperienceButton{
-    background-color: gray;
+    background: none;
     border: none;
     font-size: 18px;
 }
@@ -29,25 +27,30 @@
 .ExperienceSections{
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #696969;
     min-width: 160px;
-    box-shadow: brown;
+    box-shadow: #696969;
     z-index: 1;
 }
 .ExperienceSections a {
     color: black;
     padding: 12px 16px;
+    display:ruby;
+}
+
+.Experience:hover .ExperienceSections{
     display: block;
 }
-#moreBody {
-    font-size: 20px;
-    margin: 100px;
-    border: 1px solid black;
+.Experience:hover .ExperienceButton{
+
+    background-color: #696969;
 }
+
 #mainNav ul{ 
     padding: 9px;
     margin: 0;
     list-style: none;
+    text-align: left;
 }
 #mainNav li{
     display: inline;
@@ -68,8 +71,11 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 500px;
+}
+#intro{
+    min-height: 1000px;
     text-align: center;
+    padding-top: 300px;
     color: aliceblue;
 }
 #ExperienceSection{
@@ -90,17 +96,23 @@
 .center{
     position: absolute;
     width: 250px;
-    height: 250px;
+    height: 200px;
     margin: auto;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
 }
+.top{
+    height:0px;
+    top: 0;
+    right: 0;
+    bottom:0;
+}
 .bottom{
     position: absolute;
     width: 600px;
-    height: 20px;
+    height: 0px;
     margin: auto;
     top: 400;
     right: 0;
