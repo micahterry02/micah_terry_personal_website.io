@@ -39,11 +39,11 @@
 }
 
 .Experience:hover .ExperienceSections{
-    display: block;
+    display:contents;
 }
 .Experience:hover .ExperienceButton{
 
-    background-color: #696969;
+    text-decoration: underline !important;
 }
 
 #mainNav ul{ 
