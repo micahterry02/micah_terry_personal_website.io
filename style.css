@@ -60,10 +60,10 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
-}
-#mainNav li:hover{
-    background-color: #696969;
 
+}
+#mainNav a:hover{
+    text-decoration: underline !important;
 }
 #mainBody{
     padding: 20px;
@@ -73,7 +73,7 @@
     background-attachment: fixed;
 }
 #intro{
-    min-height: 1000px;
+    min-height: 600px;
     text-align: center;
     padding-top: 300px;
     color: aliceblue;
