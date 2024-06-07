@@ -18,6 +18,7 @@
 .ExperienceButton{
     background: none;
     border: none;
+    text-decoration: none;
     font-size: 18px;
 }
 .Experience{
@@ -34,7 +35,7 @@
 }
 .ExperienceSections a {
     color: black;
-    padding: 12px 16px;
+    padding: 10px 10px;
     display:ruby;
 }
 
@@ -55,12 +56,13 @@
 #mainNav li{
     display: inline;
     padding: 10px 10px;
+    
 }
 #mainNav a{
     color: white;
     text-decoration: none;
-    font-size: 20px;
-
+    font-size: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #mainNav a:hover{
     text-decoration: underline !important;
@@ -80,7 +82,10 @@
 }
 #ExperienceSection{
     padding: 20px;
-    background:rgb(189, 125, 21);
+    background-color:blanchedalmond;
+    background-position: center;
+    background-size:contain;
+    background-attachment:scroll;
     height: 780px;
     border-radius: 10px;
 }
