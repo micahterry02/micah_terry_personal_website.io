@@ -3,18 +3,22 @@
     margin: auto;
     overflow: hidden;
 }
-#mainHeader {
-    background: black;
-    color: white;
-}
+
+*{
+    font-family: "Poppins", sans-serif;
+} 
+
 #body{
     margin: 0%;
 }
 #mainNav{
     background: none;   
     position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
+    top:0;
 }
+
+
 .ExperienceButton{
     background: none;
     border: none;
@@ -42,8 +46,8 @@
 .Experience:hover .ExperienceSections{
     display:contents;
 }
-.Experience:hover .ExperienceButton{
 
+.Experience:hover .ExperienceButton{
     text-decoration: underline !important;
 }
 
@@ -59,7 +63,7 @@
     
 }
 #mainNav a{
-    color: white;
+    color: rgb(134, 49, 177);
     text-decoration: none;
     font-size: 15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -69,7 +73,7 @@
 }
 #mainBody{
     padding: 20px;
-    background-image: url(backgroundImage.jpeg);
+    background-color:rgb(38, 8, 52);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -78,7 +82,7 @@
     min-height: 600px;
     text-align: center;
     padding-top: 300px;
-    color: aliceblue;
+    color: rgb(42, 80, 114);
 }
 #ExperienceSection{
     padding: 20px;
@@ -97,36 +101,38 @@
     padding-top: 200px;
     text-align:right;
 }
-
-.center{
+/*welcome screen*/
+.welcomeScreen{
+    position: fixed;
+    z-index: 1;
+    left:0;
+    top:0;
+    width: 100%;
+    height:100vh;
+    background-color: rgb(8, 0, 13);
+    transition: 2s;
+}
+.welcomeScreen-header{
     position: absolute;
-    width: 250px;
-    height: 200px;
-    margin: auto;
-    top: 0;
-    right: 0;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+} 
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    color:aliceblue;
+    opacity:0;
+}
+.logo.active{
     bottom: 0;
-    left: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
 }
-.top{
-    height:0px;
-    top: 0;
-    right: 0;
-    bottom:0;
-}
-.bottom{
-    position: absolute;
-    width: 600px;
-    height: 0px;
-    margin: auto;
-    top: 400;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-body{
-    background-color: white;
-}
-textarea{
-    background-color: black; color: white;
+.logo.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
 }
