@@ -18,7 +18,7 @@
     top:0;
 }
 
-
+/*experience button*/
 .ExperienceButton{
     background: none;
     border: none;
@@ -38,7 +38,6 @@
     z-index: 1;
 }
 .ExperienceSections a {
-    color: black;
     padding: 10px 10px;
     display:ruby;
 }
@@ -49,6 +48,24 @@
 
 .Experience:hover .ExperienceButton{
     text-decoration: underline !important;
+}
+/*end experience button*/
+
+/*experience and project sections*/
+.split{
+    height:100%;
+    width:50%;
+    position: absolute;
+    z-index: 1;
+    overflow-x: hidden;
+    
+}
+.right{
+    right:0;
+}
+
+.left{
+    left:0;
 }
 
 #mainNav ul{ 
@@ -73,7 +90,7 @@
 }
 #mainBody{
     padding: 20px;
-    background-color:rgb(38, 8, 52);
+    background-image:url(meBackground.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -86,7 +103,8 @@
 }
 #ExperienceSection{
     padding: 20px;
-    background-color:blanchedalmond;
+    color:rgb(38, 8, 52);
+    background-color:rgb(42, 80, 114);
     background-position: center;
     background-size:contain;
     background-attachment:scroll;
@@ -97,10 +115,16 @@
     position: experienceHeader;
     text-align: left;
 }
-#projectsHeader{
-    padding-top: 200px;
-    text-align:right;
+
+
+/*projects section*/
+#projects{
+    padding: 20px;
+    text-align:left;
+    background-color: blanchedalmond;
+    height:700px;
 }
+
 /*welcome screen*/
 .welcomeScreen{
     position: fixed;
