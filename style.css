@@ -120,6 +120,12 @@
     color: rgb(0, 0, 0);
     font: 40px;
 }
+#aboutMeSection{
+    padding:20px;
+    background-color: aliceblue;
+    height: 100vh;
+
+}
 #ExperienceSection{
     padding: 20px;
     color:rgb(38, 8, 52);
