@@ -140,7 +140,9 @@
     position: experienceHeader;
     text-align: left;
 }
-
+#lifeContent{
+    padding: 20px;
+}
 
 /*projects section*/
 #projects{
@@ -188,5 +190,5 @@
 
 #mallocBody{
     background-color: cadetblue;
-    
+
 }
