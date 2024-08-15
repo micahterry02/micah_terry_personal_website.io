@@ -71,6 +71,10 @@
     right: 50px;
     top: 20px;
 }
+.bottom{
+    position: relative;
+    top:600px;
+}
 
 
 #mainNav ul{ 
@@ -140,10 +144,24 @@
     position: experienceHeader;
     text-align: left;
 }
-#lifeContent{
-    padding: 20px;
+#lifeBody{
+    background-color: black;
+    color: aliceblue;
 }
 
+#lifeContent{
+    padding: 20px;
+
+}
+
+#ripConway{ 
+    padding-left: 100px;
+    width: 40vw;
+    height:70vh;
+}
+#ripConwayText{
+    padding-left: 200px;
+}
 /*projects section*/
 #projects{
     padding: 20px;
