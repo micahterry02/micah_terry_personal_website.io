@@ -11,19 +11,14 @@
 #body{
     margin: 0%;
 }
-#mainNav{
-    background: none;   
-    position: -webkit-sticky;
-    position: fixed;
-    top:0;
-}
+
 
 /*experience button*/
 .ExperienceButton{
     background: none;
     border: none;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 .Experience{
     position: relative;
@@ -76,12 +71,23 @@
     top:600px;
 }
 
+#mainNav{
+    color:#fff;
+    background: none;   
+    position: -webkit-sticky;
+    position: fixed;
+    top:0;
+    background-color: #000;
+    opacity: .8;
+    width:100vw;
+}
 
 #mainNav ul{ 
     padding: 9px;
     margin: 0;
     list-style: none;
     text-align: left;
+    opacity: .6;
 }
 #mainNav li{
     display: inline;
@@ -89,24 +95,22 @@
     
 }
 #mainNav a{
-    color: rgb(168, 91, 40);
+    color: #fff;
     text-decoration: none;
-    font-size: 15px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
 #mainNav a:hover{
     text-decoration: underline !important;
 }
 
 #mainBody{
-    padding: 20px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 #montaukVid{
     width: 100vw;
-    height: 100vh;
+    height: 100vw;
     object-fit: cover;
     position:fixed;
     left: 0;
@@ -116,41 +120,49 @@
     padding-top: 0;
 }
 #intro{
-    min-height: 400px;
-    padding-top: 300px;
+    height: 500px;
+    padding-top: 400px;
 }
 #introText{
-    padding-top: -200px;
-    color: rgb(0, 0, 0);
+    color: #fff;
     font: 40px;
+    transform: translateY(250px);
+    background-color: #000;
+    opacity: .6;
+    height: 230px;
 }
+
+
 #aboutMeSection{
     padding:20px;
-    background-color: aliceblue;
+    background-color: rgb(160, 207, 249);
     height: 100vh;
 
 }
 #ExperienceSection{
     padding: 20px;
-    color:rgb(38, 8, 52);
-    background-color:rgb(42, 80, 114);
+    color:rgb(15, 1, 22);
+    background-color:rgb(160, 207, 249);
     background-position: center;
     background-size:contain;
     background-attachment:scroll;
     height: 780px;
-    border-radius: 10px;
 }
 #ExperienceTitle{
     position: experienceHeader;
     text-align: left;
 }
+#bull{
+    padding: 100px;
+}
+
 #lifeBody{
     background-color: black;
     color: aliceblue;
 }
 
 #lifeContent{
-    padding: 20px;
+    padding-left: -200px;
 
 }
 
@@ -160,14 +172,17 @@
     height:70vh;
 }
 #ripConwayText{
-    padding-left: 200px;
+    padding-left: 250px;
+}
+#lifeConclusion{
+    padding-top: 80px;
 }
 /*projects section*/
 #projects{
     padding: 20px;
     text-align:left;
-    background-color: blanchedalmond;
-    height:700px;
+    background-color: rgb(245, 172, 117);
+    height:100vw;
 }
 
 /*welcome screen*/

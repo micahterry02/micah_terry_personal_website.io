@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
+    
+    <head>
+        <!-- metadata--> 
+        <title>MALLOC</title>
+        <link href="./style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    </head>
     <body id="mallocBody">
-        <head>
-            <!-- metadata--> 
-            <title>MALLOC</title>
-            <link href="./style.css" rel="stylesheet">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
-        </head>
+        <div id="backButtonDiv"><button id="backButton"><a href="myWebsite.html">Back</button></a></div>
         <div id="mallocContent">
-            <h1>Dynamic Memory Allocator</h1>
-            <p1>
-                In this project I engineered a dynamic allocator fully able to replace C's built in allocator(malloc) 
-                for memory in a Unix process. This project gave me intimate knowledge on low level programming and
-                 systems building. This project was done for a class through my university and I therefore cannot publicly
-                  display the github link, if you are interested in seeing the actual code for the project reach out to me 
-                  through either my personal or school email and I would be happy to send the details privately!
-            </p1>
+            <h1 id="mallocTitle">Dynamic Memory Allocator</h1>
+            <h1> malloc, realloc, and free in C</h1>
+            <p>
+                In this project, I rewrote the core memory management functions in C: <code>malloc</code>, <code>realloc</code>, and <code>free</code>. The objective was to create a custom memory allocator that efficiently handles memory allocation and deallocation for all singly-threaded programs. This involved developing a memory management system capable of allocating, resizing, and freeing memory blocks effectively.
+            </p>
+            <h2>Key Skills and Concepts Learned:</h2>
+            <ul>
+                <li><strong>Memory Management:</strong>
+                    Gained a deep understanding of memory management techniques, including allocation strategies, memory fragmentation, and garbage collection. This experience provided insights into how memory can be efficiently managed and reclaimed.
+                </li>
+                <li><strong>C Programming:</strong>
+                    Enhanced my proficiency in C programming, particularly in low-level programming and managing memory directly. This project required careful handling of pointers and memory addresses to ensure correct functionality.
+                </li>
+                <li><strong>Data Structures:</strong>
+                    Applied various data structures such as linked lists and block headers to manage free and allocated memory blocks. This involved designing and implementing efficient algorithms for memory allocation and deallocation.
+                </li>
+                <li><strong>Debugging:</strong>
+                    Developed advanced debugging skills to identify and resolve issues related to memory leaks, segmentation faults, and performance bottlenecks. This included using tools and techniques for thorough testing and validation.
+                </li>
+                <li><strong>Performance Optimization:</strong>
+                    Learned techniques for optimizing the performance of the memory allocator, including minimizing overhead and improving allocation speed. This experience taught me how to balance efficiency with functionality.
+                </li>
+            </ul>
+        </div>
+        <div id="mallocConclusion">
+            <p>
+                Overall, rewriting malloc, realloc, and free provided a profound understanding of memory management and enhanced my ability to write efficient, low-level code. The project reinforced my skills in C programming and memory optimization, laying a strong foundation for future system-level development.
+            </p>
         </div>
     </body>
 </html>
