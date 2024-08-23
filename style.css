@@ -12,7 +12,6 @@
     margin: 0%;
 }
 
-
 /*experience button*/
 .ExperienceButton{
     background: none;
@@ -80,8 +79,8 @@
     background-color: #000;
     opacity: .8;
     width:100vw;
+    z-index: 1;
 }
-
 #mainNav ul{ 
     padding: 9px;
     margin: 0;
@@ -131,13 +130,10 @@
     opacity: .6;
     height: 230px;
 }
-
-
 #aboutMeSection{
     padding:20px;
     background-color: rgb(160, 207, 249);
     height: 100vh;
-
 }
 #ExperienceSection{
     padding: 20px;
@@ -152,10 +148,13 @@
     position: experienceHeader;
     text-align: left;
 }
-#bull{
-    padding: 100px;
+#rover{
+    padding: 20px;
 }
-
+#bull{
+    transform: translateY(100px);
+    z-index: -1;
+}
 #lifeBody{
     background-color: black;
     color: aliceblue;
@@ -179,16 +178,23 @@
 }
 /*projects section*/
 #projects{
-    padding: 20px;
+    padding: 60px;
     text-align:left;
     background-color: rgb(245, 172, 117);
     height:100vw;
 }
-
+#contactInfo{
+    background-color: aliceblue;
+    padding: 20px;
+    height: 60vw;
+}
+#contactInfoContent{
+    padding: 20px;
+}
 /*welcome screen*/
 .welcomeScreen{
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left:0;
     top:0;
     width: 100%;
