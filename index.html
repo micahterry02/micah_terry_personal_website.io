@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <body id="body">
+        <!-- Head -->
+        <head>
+            <!-- metadata--> 
+            <title>Micah Terry's Personal Website</title>
+            <link href="./style.css" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+        </head>
+        <div class="welcomeScreen">
+            <h1 class="welcomeScreen-header">
+                <span class="logo">Hi, </span><span class="logo">  welcome to my website.</span>
+            </h1>
+        </div>
+        <div id="mainBody">
+            <nav id="mainNav"> 
+                <ul id="menu">
+                    <li><a href="https://www.linkedin.com/in/micah-terry-5b5b08196?trk=people-guest_people_search-card" target=_blank>Linkedin</a></li>
+                    <li><a href="https://github.com/micahterry02?tab=overview&from=2024-06-01&to=2024-06-04" target="_blank">github</a></li>
+                    <li><a href="csResume.pdf" target=_blank>Resume</a></li>
+                    <li><a href="#aboutMeSection">About Me</a></li>
+                    <div class="Experience">
+                        <li><button class="ExperienceButton"><a href="#ExperienceSection">Experience</a></button></li>
+                        <div class="ExperienceSections">
+                            <a href="#projects">projects</a>
+                            <a href="#ExperienceSection">work Experience</a>
+                        </div>
+                    </div>
+                </ul>
+            </nav> 
+            <div id="intro">
+                <video id="montaukVid" autoplay loop muted>
+                    <source src="montauk_video.mp4" type="video/mp4">
+                </video>
+                <div id="introText">
+                    <h2>Hi, I'm Micah</h2>
+                    <h3> A Computer Science major and freelance web developer based on long Island and Buffalo, NY</h3>
+                </div>
+            </div>
+        </div>
+        <div class="centered">
+            <div id="aboutMeSection">
+                <h2 id="aboutMeHeader">About Me</h2>
+                <p1 id="aboutMeBody">I'm a CS  major in my Junior year at University at Buffalo. I enjoy lifting, rock climbing, 
+                    hiking, playing guitar and programming. My software passions lie in Web Development, Systems Building,
+                        Data Science and Machine Learning.</p1>
+                <div id="proficiencys">
+                    <h2 id="LangaugeProficiencys">Langauge proficiencys</h2>
+                    <ul>
+                        <li>C</li>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>React JS</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div id="Skills">
+                    <h2 id="Skills">Skills</h2>
+                    <ul>
+                        <li>Algorithm Building</li>
+                        <li>Systems Building</li>
+                        <li>Web Development</li>
+                        <li>Operating Systems</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="jsForWebsite.js"></script>
+        <div class="centered">
+            <div id="projects">
+                <h1 id="projectsHeader">Projects</h1>
+                <div id="Malloc">
+                    <h2 id="mallocHeader"><a href="mallocPage.html"> Dynamic Allocator</a></h2>
+                    <p3 id="mallocDescription">Using C's built in memory allocator as a rubric,
+                         I developed a dynamic memory allocator fully functional for all single thread C programs.</pqw3>
+                </div>
+                <div id="Game of Life">
+                    <h2 id="GameOfLifeHeader"><a href="lifePage.html"> Game of Life</a></h2>
+                    <p3 id="GameOfLifeDescription">I recreated Conway's Game of Life on a 24 by 80 pixel grid using C, 
+                        focusing on algorithm design, memory management, and 2D arrays. This project enhanced my skills in optimizing rendering,
+                         managing simulations over multiple generations, 
+                        and debugging for better performance.</p3>
+                </div>
+                <div id="personalWebsite">
+                    <h2 id="personalWebsiteHeader">Personal Website</h2>
+                    <p3 id="personalWebsiteDescription">This website is also a project of mine! This website utilizes CSS,
+                        html, and Javascript to bring you an interactive and seemless experience.
+                    </p3>
+                </div>
+            </div>
+        </div>
+        <div class="centered">
+            <div id ="ExperienceSection">
+                <div id="ExperienceTitle">
+                    <h1 id="ExperienceHeader">Experience</h1>
+                    <p1 id ="Experience" >Below is a brief overview of my programming Experience as well as some
+                         projects and some relevant skills, for a pdf version click <a href="csResume.pdf" target="_blank">here</a></p1>
+                    <div id="rover">
+                        <h2 id="roverHeaderDescriptor">UB Rover Software Team Member</h2>
+                            <p3 id="roverDescription">I am a team member of University at Buffalo's award winning Mars Rover team, working as a software engineer 
+                                on the rovers display and environment awarness systems. 
+                                This research project has helped me not only grow as a programmer, sharpening my front end developing and React skills,
+                                 but also grow as a team member. Working with
+                                other developers on this project has helped me learn how to work effectively and efficiently in a group.
+                            </p3>
+                        <div><img src="download.jpg" id="bull"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="contactInfo">
+            <h1 id="contactInfoHeader">How To Reach Me</h1>
+            <p3 id="contactInfoContent">
+                <ul>
+                    <li>School Email: micahter@Buffalo.edu</li>
+                    <li>Personal Email: micahtterry@gmail.com</li>
+                    <li>Number: (631)456-3683</li>
+                </ul>
+                For all professional inquiries please reach out via my personal email.
+            </p3>
+        </div>
+    </body>
+</html>
